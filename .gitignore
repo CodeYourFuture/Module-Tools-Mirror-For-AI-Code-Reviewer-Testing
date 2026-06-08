@@ -1,1 +1,5 @@
 node_modules
+testoutput.txt
+.venv
+__pycache__
+.mypy_cache
