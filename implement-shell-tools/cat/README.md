@@ -15,3 +15,8 @@ It must act the same as `cat` would, if run from the directory containing this R
 Matching any additional behaviours or flags are optional stretch goals.
 
 We recommend you start off supporting no flags, then add support for `-n`, then add support for `-b`.
+
+Run the Python implementation from this directory with `python cat.py sample-files/1.txt`
+or `python cat.py -n sample-files/1.txt sample-files/2.txt`. Use `-b` to number
+nonempty lines. Python 3 is required. Pass filenames explicitly if your shell
+does not expand wildcards.
